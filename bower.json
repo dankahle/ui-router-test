@@ -1,0 +1,23 @@
+{
+  "name": "ui-router-test",
+  "homepage": "https://github.com/dankahle/ui-router-test",
+  "authors": [
+    "Dan Kahle <daniel.kahle@acxiom.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "ui-router#^0.3.1",
+    "jquery": "^3.1.1",
+    "lodash": "^4.16.3"
+  }
+}
