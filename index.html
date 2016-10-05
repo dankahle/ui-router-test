@@ -11,13 +11,16 @@
 </head>
 <body ng-controller="mainCtrl">
 
+decision: <input ng-model="Global.val">{{Global.val}}<br><br>
 <a ui-sref="home">home</a>
-<a ui-sref="about">about</a>
+<!--<a ui-sref="fail">fail</a>-->
 <a ui-sref="other">other</a>
-<a ui-sref="test">test</a>
+<!--<a ui-sref="test">test</a>-->
 <a ui-sref="parent">parent</a>
 <a ui-sref="parent.child1">child1</a>
 <a ui-sref="parent.child2">child2</a>
+<a href="#/">root</a>
+<a href="#/notthere">not there</a>
 <br>
 <ui-view></ui-view>
 
